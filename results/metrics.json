@@ -1,0 +1,51 @@
+{
+  "cv": [
+    {
+      "model": "Logistic Regression",
+      "ROC-AUC": 0.847,
+      "ROC-AUC std": 0.0109,
+      "PR-AUC": 0.6602,
+      "F1": 0.6275
+    },
+    {
+      "model": "Random Forest",
+      "ROC-AUC": 0.8445,
+      "ROC-AUC std": 0.0094,
+      "PR-AUC": 0.6559,
+      "F1": 0.6342
+    },
+    {
+      "model": "LightGBM",
+      "ROC-AUC": 0.8425,
+      "ROC-AUC std": 0.0108,
+      "PR-AUC": 0.6528,
+      "F1": 0.6352
+    },
+    {
+      "model": "XGBoost",
+      "ROC-AUC": 0.8401,
+      "ROC-AUC std": 0.0081,
+      "PR-AUC": 0.6505,
+      "F1": 0.6313
+    }
+  ],
+  "best_cv_auc": 0.8499,
+  "threshold": 0.59,
+  "test_roc_auc": 0.8448,
+  "test_pr_auc": 0.6647,
+  "test_f1": 0.6359,
+  "test_recall": 0.738,
+  "test_precision": 0.5587,
+  "top20_capture": 0.5053,
+  "top30_capture": 0.6684,
+  "top_features": {
+    "Contract_Month-to-month": 0.44830000400543213,
+    "tenure": 0.3522999882698059,
+    "InternetService_Fiber optic": 0.2761000096797943,
+    "Contract_Two year": 0.23919999599456787,
+    "OnlineSecurity_No": 0.22939999401569366,
+    "PaymentMethod_Electronic check": 0.1720999926328659,
+    "TechSupport_No": 0.15230000019073486,
+    "TotalCharges": 0.1281999945640564
+  }
+}
